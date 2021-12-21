@@ -1,0 +1,127 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeeeee;
+    color: #181818;
+    line-height: 1.6;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 64px 0 24px 3%;
+}
+.shop-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 94%;
+    margin: 0 auto;
+}
+.shop-block{
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shop-card{
+    width: 48%;
+    background-color: #ffffff;
+    border: 1px solid #887559;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    padding: 32px;
+}
+.goods_name{
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.goods_author{
+    font-size: 12px;
+    text-align: center;
+}
+.goods_img{
+    width: 90%;
+    margin: 0 auto;
+}
+.goods_img img{
+    width: 100%;
+}
+.shop-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    width: 50%;
+    text-align: center;
+}
+.button{
+    display: block;
+    width: 50%;
+    padding: 8px 16px;
+    border-radius: 2px;
+    background-color: #887559;
+    font-size: 12px;
+    text-align: center;
+    color: #EDECEB;
+}
+
+.cart-block{
+    width: 40%;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+.cart_ttl{
+    font-size: 18px;
+    color: #887559;
+    padding-bottom: 16px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+.cart_ttl i{
+    margin-right: 4px;
+}
+.cart_list-wrap{
+    padding: 16px 0;
+    border-bottom: 1px solid #cccccc;
+}
+.cart_list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.cart_list li{
+    width: 20%;
+    padding: 8px 0;
+    color: #999999
+}
+.cart_list li.cart_name{
+    width: 40%;
+}
+.cart_list li.cart_del{
+    color: #777777;
+}
+.cart_list li.cart_del i{
+    margin-right: 4px;
+}
+.summary{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 16px;
+}
+.summary li{
+    margin-right: 16px;
+}
+.summary li .buy{
+    display: block;
+    padding: 10px 16px;
+    border-radius: 2px;
+    background-color: #887559;
+    font-size: 12px;
+    color: #EDECEB;
+    margin-right: 0;
+}
